@@ -1,17 +1,31 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
+    color: #444;
     background-color: hsl(60, 50%, 95%);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+p {
+    text-align: center;
 }
 
 h1,
 h2 {
     background-color: hsl(240, 90%, 75%);
-    color: white;
+    color: #eee;
 }
 
 .recipe-list {
+    padding: 0;
+}
+
+.recipe-list li {
     list-style-type: none;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 img {
@@ -22,4 +36,9 @@ img {
 .disclaimer {
     font-size: 12px;
     font-weight: 800;
+}
+
+.ingredients-list li,
+.steps-list li {
+    margin-bottom: 6px;
 }
